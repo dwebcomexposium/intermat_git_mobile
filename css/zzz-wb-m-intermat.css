@@ -681,3 +681,8 @@ height: 0; border-style: solid; border-width: 28px 67px 0 67px; border-color: #4
 
 .checkbox input:checked + label:after { opacity: 1; visibility: visible; }
 
+html:lang(en) .site-banner-logo {
+
+    background: url(/theme/intermat_git_desktop/img/logo-intermat-date-en.svg) 0/contain no-repeat;
+}
+
