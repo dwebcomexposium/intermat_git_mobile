@@ -1218,8 +1218,10 @@ ul.mn-menu-submenu .mn-link:before { content: ''; position: absolute; top: 50%; 
 .main-navigation .mn-menu-line .mn-menu-lvl1 .mn-menu-item .mn-menu-lvl2 .mn-item-lvl-2 .mn-link .mn-link-text:before { display: none; }
 .main-navigation .mn-menu-lvl2 span.mn-link-text { letter-spacing: .08em; }
 
-.mn-item-lvl-1:first-child > .mn-link { padding-bottom: 24px; color: #111617; font-size: 13px !important; text-transform: none; font-weight: normal; letter-spacing: .025em; }
+li#widgetMobileLinkOpenCap .mn-link { padding-bottom: 24px; color: #111617; font-size: 13px !important; text-transform: none; font-weight: normal; letter-spacing: .025em; }
 .mn-item-lvl-1 .cap-icon-user-circle-o:before { content: ''; position: relative; top: -3px; margin-right: 14px; width: 13px; height: 19px; background-size: 100% 100%; background-repeat: no-repeat; background-image: url(images/ico-login@2x.png); display: inline-block; vertical-align: middle; }
+
+
 
 /* ------------------------------------------------------------ *\
 	Slider Main
