@@ -10,4 +10,5 @@ modules/*
 agence-o/*
 wb/*
 wb-m-intermat.js
+wb-m-inter.js
 wb-popup.js
