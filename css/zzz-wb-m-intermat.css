@@ -1088,7 +1088,7 @@ header.is-stuck.site-banner button.sb-menu-trigger.is-open { top: 19px; }
 .lang-switcher .ls-trigger { width: 22px; height: 22px; padding: 0; border: 0; margin-right: 16px; font-family: 'Gotham', sans-serif; font-size: 10px; line-height: 22px; color: #fff; font-weight: bold; }
 .lang-switcher .ls-trigger:before { content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: -5; transform: rotate(45deg); background: #3b717e; }
 .lang-switcher .ls-trigger:after { display: none; }
-.lang-switcher .ls-lang-list { position: static; display: inline-block !important; opacity: 1 !important; height: auto !important; overflow: visible !important; background: none; }
+.lang-switcher .ls-lang-list { position: relative; top: auto; left: auto; right: auto; z-index: 9; display: inline-block !important; opacity: 1 !important; height: auto !important; overflow: visible !important; background: none; }
 .lang-switcher .ls-trigger:focus { outline: none; }
 .lang-switcher .ls-lang-item { height: 22px; border-left: 0; background: none; line-height: 22px; }
 .lang-switcher .ls-lang-item.is-active { display: none; }
