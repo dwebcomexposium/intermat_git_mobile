@@ -685,7 +685,6 @@ html:lang(en) .site-banner-logo {
 
     background: url(/theme/intermat_git_desktop/img/logo-intermat-date-en.svg) 0/contain no-repeat;
 }
-
 /* ------------------------------------------------------------ *\
 	facelift 2019
 \* ------------------------------------------------------------ */
@@ -1298,7 +1297,7 @@ body.body-mobile.front #zone1 .la-slider.slider.cxp-swiper article.la-item .la-i
 
 
 body.body-mobile.front #zone1 .la-slider.slider.cxp-swiper article.la-item .la-item-content .la-item-title a { color: #ffda2e; }
-body.body-mobile.front #zone1 .la-slider.slider.cxp-swiper article.la-item .la-item-content .la-item-btn { display: block; padding-top: 15px; margin: 0 auto; max-width: 192px;}
+body.body-mobile.front #zone1 .la-slider.slider.cxp-swiper article.la-item .la-item-content .la-item-btn { display: block; padding-top: 15px; margin: 0 auto; max-width: 240px;}
 body.body-mobile.front #zone1 .la-slider.slider.cxp-swiper article.la-item .la-item-content .la-item-btn .btn-primary { margin: 0 0 12px; padding: 12px 16px; border: 2px solid #ffda2e; background: #ffda2e; font-size: 13px; line-height: 1.21; color: #111617; font-family: 'Gotham', sans-serif; font-weight: 900; text-align: center; letter-spacing: .05em; }
 body.body-mobile.front #zone1 .la-slider.slider.cxp-swiper article.la-item .la-item-content .la-item-btn .btn-primary i { display: none; }
 body.body-mobile.front #zone1 .la-slider.slider.cxp-swiper article.la-item .la-item-content .la-item-btn .btn-primary:first-child { margin-right: 0; background: transparent; color: #ffda2e; }
@@ -1722,6 +1721,16 @@ body.body-mobile .global-wrapper .wrapper #zone2 .list-articles:nth-child(1) .in
 	Section Newsletter
 \* ------------------------------------------------------------ */
 
+.site-footer .inside .block-page {
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 950px;*/
+    /*background: url(/theme/intermat_git_desktop/img/background-footer.jpg) no-repeat;*/
+/*    background-size: cover;*/
+/*    position: relative;*/
+}
+
+
 .section-newsletter { display: block !important; position: relative; top: auto; left: auto; z-index: 0; transform: translateX(20px); max-width: 1000px; padding: 103px 110px 97px 132px; margin: 100px auto 124px; background: #3b717e; overflow: hidden; }
 .section-newsletter:before { content: ''; position: absolute; top: 0; right: 0; width: 0; height: 0; border-style: solid; border-width: 0 1040px 32px 0; border-color: transparent #fff transparent transparent; }
 .section-newsletter:after { content: ''; position: absolute; top: 0; right: -4px; width: 0; height: 0; border-style: solid; border-width: 0 0 700px 100px; border-color: transparent transparent #fff transparent; }
@@ -1755,7 +1764,7 @@ body.body-mobile .global-wrapper .wrapper #zone2 .list-articles:nth-child(1) .in
 .section-newsletter .section__foot { margin-top: 31px; }
 .section-newsletter .section__foot:first-child { margin-top: 0; }
 
-.section-newsletter .nf-form-input { float: none; }
+.section-newsletter .nf-form-input { float: none; color: #fff!important; }
 
 /*  Text Field  */
 .section-newsletter .newsletter-form .nf-main-content .inside .nf-form-item label { margin-top: 0; margin-bottom: -35px; margin-left: 27px; font-size: 14px; color: #000; font-weight: normal; pointer-events: none; }
