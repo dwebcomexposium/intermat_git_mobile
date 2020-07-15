@@ -2073,3 +2073,10 @@ body.body-mobile .global-wrapper .wrapper #zone2 .list-articles:nth-child(1) .in
 #cxpmClientAccountWidget .widget-my-selection { position: absolute !important; top: 50%; right: 14px; width: 15px; height: 20px; transform: translateY(-50%); }
 #cxpmClientAccountWidget .widget-icon>span.number, 
 #cxpm-connect-sso-dropdown .widget-icon>span.number { top: -6px !important; }
+
+.breadcrumb-nav { display: none; }
+.body.body-mobile.article .global-wrapper .wrapper { padding-top: 160px; }
+.mn-link.is-active { background: none; }
+
+.list-header-btns, .site-banner .inside .global-search-form { display: none; }
+body.loaded .list-header-btns, body.loaded .site-banner .global-search-form { display: block; }
