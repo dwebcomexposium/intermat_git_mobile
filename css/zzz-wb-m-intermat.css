@@ -787,9 +787,9 @@ nav ol { list-style: none outside none; }
 	Base
 \* ------------------------------------------------------------ */
 
-body.front { font-family: 'Gotham-Book', sans-serif; font-size: 15px; line-height: 1.67; color: #111617; font-weight: normal; }
+body { font-family: 'Gotham-Book', sans-serif; font-size: 15px; line-height: 1.67; color: #111617; font-weight: normal; }
 
-body.front p { margin-top: 0; margin-bottom: 1.63em; line-height: inherit; }
+body p { margin-top: 0; margin-bottom: 1.63em; line-height: inherit; }
 
 body.body-corpo.front .site-wrapper { max-width: 100%; }
 body.body-corpo.front #main { background: url(images/grey-pattern.png) no-repeat center top; background-size: 100%; }
@@ -2073,6 +2073,7 @@ body.body-mobile .global-wrapper .wrapper #zone2 .list-articles:nth-child(1) .in
 #cxpmClientAccountWidget .widget-my-selection { position: absolute !important; top: 50%; right: 14px; width: 15px; height: 20px; transform: translateY(-50%); }
 #cxpmClientAccountWidget .widget-icon>span.number, 
 #cxpm-connect-sso-dropdown .widget-icon>span.number { top: -6px !important; }
+
 
 .breadcrumb-nav { display: none; }
 .body.body-mobile.article .global-wrapper .wrapper { padding-top: 160px; }
