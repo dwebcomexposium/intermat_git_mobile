@@ -685,6 +685,8 @@ html:lang(en) .site-banner-logo {
 
     background: url(/theme/intermat_git_desktop/img/logo-intermat-date-en.svg) 0/contain no-repeat;
 }
+
+
 /* ------------------------------------------------------------ *\
 	facelift 2019
 \* ------------------------------------------------------------ */
@@ -800,7 +802,7 @@ body.body-corpo.front .layout-2-col #zone2 { display: block; padding-left: 0; }
 body.body-corpo.front #zone4:before { display: none; }
 
 body.body-corpo.front #main { background-size: 100% 100%; }
-body.body-mobile .global-wrapper .wrapper { padding-top: 148px; }
+body.body-mobile .global-wrapper .wrapper { padding-top: 148px!important; }
 .global-wrapper { padding: 0; margin-top: 0; overflow: hidden; }
 
 /* ------------------------------------------------------------ *\
@@ -2076,7 +2078,7 @@ body.body-mobile .global-wrapper .wrapper #zone2 .list-articles:nth-child(1) .in
 
 
 .breadcrumb-nav { display: none; }
-.body.body-mobile.article .global-wrapper .wrapper { padding-top: 160px; }
+.body.body-mobile.article .global-wrapper .wrapper { padding-top: 160px!important; }
 .mn-link.is-active { background: none; }
 
 .list-header-btns, .site-banner .inside .global-search-form { display: none; }
